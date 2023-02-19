@@ -62,6 +62,11 @@
       "relation": "manyToMany",
       "target": "api::product-media.product-media",
       "inversedBy": "products"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
     }
   }
 }
