@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legals",
+  "info": {
+    "singularName": "legal",
+    "pluralName": "legals",
+    "displayName": "Legal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "modifiedDate": {
+      "type": "date"
+    }
+  }
+}

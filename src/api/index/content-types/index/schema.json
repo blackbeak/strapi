@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "indices",
+  "info": {
+    "singularName": "index",
+    "pluralName": "indices",
+    "displayName": "Index",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "homeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "oneHeadline": {
+      "type": "string"
+    },
+    "twoHeadline": {
+      "type": "string"
+    },
+    "threeHeadline": {
+      "type": "string"
+    },
+    "oneCTA": {
+      "type": "string"
+    },
+    "twoCTA": {
+      "type": "string"
+    },
+    "threeCTA": {
+      "type": "string"
+    },
+    "featureOne": {
+      "type": "text"
+    },
+    "featureTwo": {
+      "type": "text"
+    },
+    "featureThree": {
+      "type": "text"
+    },
+    "heroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

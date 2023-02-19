@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_pages",
+  "info": {
+    "singularName": "service-page",
+    "pluralName": "service-pages",
+    "displayName": "ServicePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "heroText": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "headlineOne": {
+      "type": "string"
+    },
+    "copyOne": {
+      "type": "text"
+    },
+    "headlineTwo": {
+      "type": "string"
+    },
+    "copyTwo": {
+      "type": "text"
+    },
+    "imageOne": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageTwo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

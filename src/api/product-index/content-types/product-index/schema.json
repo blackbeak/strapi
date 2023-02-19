@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_indices",
+  "info": {
+    "singularName": "product-index",
+    "pluralName": "product-indices",
+    "displayName": "ProductIndex"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroHeadline": {
+      "type": "string"
+    },
+    "heroText": {
+      "type": "text"
+    },
+    "heroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "headline": {
+      "type": "string"
+    },
+    "heroURL": {
+      "type": "string"
+    },
+    "shortDesc": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
