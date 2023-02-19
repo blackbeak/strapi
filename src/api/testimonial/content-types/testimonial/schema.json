@@ -55,6 +55,12 @@
           "localized": true
         }
       }
+    },
+    "service_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::service-page.service-page",
+      "inversedBy": "testimonials"
     }
   }
 }

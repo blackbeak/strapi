@@ -65,6 +65,12 @@
     },
     "slug": {
       "type": "string"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial",
+      "mappedBy": "service_page"
     }
   }
 }
