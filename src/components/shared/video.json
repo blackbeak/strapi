@@ -1,12 +1,23 @@
 {
   "collectionName": "components_shared_videos",
   "info": {
-    "displayName": "video"
+    "displayName": "video",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "url": {
       "type": "string"
+    },
+    "facadeImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
